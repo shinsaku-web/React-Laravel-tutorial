@@ -14,7 +14,6 @@ const mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js')
     .react()
     .sass('resources/sass/app.scss', 'public/css')
-    // browserSyncの設定
     .browserSync({
         files: [
             'resources/**/*',
@@ -23,5 +22,6 @@ mix.js('resources/js/app.js', 'public/js')
             'routes/**/*',
             'public/**/*'
         ],
-        proxy: 'http://localhost',
+        proxy: 'http://localhost:80',
+        open: "ui",
     });

@@ -14,19 +14,16 @@ require('./bootstrap');
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Example from './pages/Home';
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { About } from "./pages/About";
+import Home from './pages/Home';
+// import { About } from "./pages/About";
 import { Work } from "./pages/Work";
 
 const App = () => {
     return (
         <BrowserRouter>
             <Routes>
-                {/* ここに、pathと対応するコンポーネントを書いていく */}
-                <Route path="/" element={Example()} />
-                <Route path="/about" element={About()} />
+                <Route path="/" element={Home()} />
                 <Route path="/work" element={Work()} />
             </Routes>
         </BrowserRouter>
