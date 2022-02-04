@@ -16,7 +16,26 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Example from './components/Example';
 
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { About } from "./About";
 
-if (document.getElementById('app')) {
-    ReactDOM.render(<Example />, document.getElementById('app'));
+// if (document.getElementById('app')) {
+//     ReactDOM.render(<Example />, document.getElementById('app'));
+// }
+const App = () => {
+    return (
+        <BrowserRouter>
+            <Routes>
+                {/* ここに、pathと対応するコンポーネントを書いていく */}
+                <Route path="/" element={Example()} />
+                <Route path="/about" element={About()} />
+            </Routes>
+        </BrowserRouter>
+    );
+};
+
+if (document.getElementById("app")) {
+    ReactDOM.render(<App />, document.getElementById("app"));
 }
+
+
