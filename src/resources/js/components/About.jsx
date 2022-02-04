@@ -10,7 +10,8 @@ export const About = () => {
                         <div className="card-header">React導入できたわな</div>
 
                         <div className="card-body">Im an example component!</div>
-                        <Button color="primary" variant="contained" href={`./`}>To Home</Button>
+                        <Button color="primary" variant="contained" href={`/`}>To Home</Button>
+                        <Button color="secondary" variant="contained" href={`/work`}>To Work</Button>
                     </div>
                 </div>
             </div>

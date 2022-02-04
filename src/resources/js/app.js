@@ -18,6 +18,7 @@ import Example from './components/Example';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { About } from "./components/About";
+import { Work } from "./components/Work";
 
 const App = () => {
     return (
@@ -26,6 +27,7 @@ const App = () => {
                 {/* ここに、pathと対応するコンポーネントを書いていく */}
                 <Route path="/" element={Example()} />
                 <Route path="/about" element={About()} />
+                <Route path="/work" element={Work()} />
             </Routes>
         </BrowserRouter>
     );
