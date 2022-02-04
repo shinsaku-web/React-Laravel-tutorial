@@ -14,7 +14,7 @@ require('./bootstrap');
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Example from './components/Example';
+import Example from './components/Home';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { About } from "./components/About";
