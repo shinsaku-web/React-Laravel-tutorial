@@ -11280,11 +11280,11 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Home */ "./resources/js/components/Home.jsx");
+/* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/Home */ "./resources/js/pages/Home.jsx");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/index.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/index.js");
-/* harmony import */ var _components_About__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/About */ "./resources/js/components/About.jsx");
-/* harmony import */ var _components_Work__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Work */ "./resources/js/components/Work.jsx");
+/* harmony import */ var _pages_About__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/About */ "./resources/js/pages/About.jsx");
+/* harmony import */ var _pages_Work__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/Work */ "./resources/js/pages/Work.jsx");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -11313,13 +11313,13 @@ var App = function App() {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Routes, {
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
         path: "/",
-        element: (0,_components_Home__WEBPACK_IMPORTED_MODULE_2__["default"])()
+        element: (0,_pages_Home__WEBPACK_IMPORTED_MODULE_2__["default"])()
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
         path: "/about",
-        element: (0,_components_About__WEBPACK_IMPORTED_MODULE_3__.About)()
+        element: (0,_pages_About__WEBPACK_IMPORTED_MODULE_3__.About)()
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
         path: "/work",
-        element: (0,_components_Work__WEBPACK_IMPORTED_MODULE_4__.Work)()
+        element: (0,_pages_Work__WEBPACK_IMPORTED_MODULE_4__.Work)()
       })]
     })
   });
@@ -11367,10 +11367,10 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/js/components/About.jsx":
-/*!*******************************************!*\
-  !*** ./resources/js/components/About.jsx ***!
-  \*******************************************/
+/***/ "./resources/js/pages/About.jsx":
+/*!**************************************!*\
+  !*** ./resources/js/pages/About.jsx ***!
+  \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -11419,10 +11419,10 @@ var About = function About() {
 
 /***/ }),
 
-/***/ "./resources/js/components/Home.jsx":
-/*!******************************************!*\
-  !*** ./resources/js/components/Home.jsx ***!
-  \******************************************/
+/***/ "./resources/js/pages/Home.jsx":
+/*!*************************************!*\
+  !*** ./resources/js/pages/Home.jsx ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -11559,10 +11559,10 @@ function Home() {
 
 /***/ }),
 
-/***/ "./resources/js/components/Work.jsx":
-/*!******************************************!*\
-  !*** ./resources/js/components/Work.jsx ***!
-  \******************************************/
+/***/ "./resources/js/pages/Work.jsx":
+/*!*************************************!*\
+  !*** ./resources/js/pages/Work.jsx ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
