@@ -14,11 +14,11 @@ require('./bootstrap');
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Example from './components/Home';
+import Example from './pages/Home';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { About } from "./components/About";
-import { Work } from "./components/Work";
+import { About } from "./pages/About";
+import { Work } from "./pages/Work";
 
 const App = () => {
     return (
